@@ -34,7 +34,7 @@
 
 #hero {
     height: 450px;
-    background: url("Christmas/assets/images/bg.jpg"), linear-gradient(to bottom, black , white);
+    background: url("assets/images/bg.jpg"), linear-gradient(to bottom, black , white);
     /* background-blend-mode: overlay; */
     background-repeat: no-repeat;
     background-position: 40% 80%;
