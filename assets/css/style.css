@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;  font-family: "Lato", serif;
+}
+
+/* Nav */
+
+#nav {
+    background-color: #21662f;
+    height: 25px;
+}
+
+#nav > .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+#nav marquee {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Hero */
+
+#hero {
+    height: 450px;
+    background: url("assets/images/bg.jpg"), linear-gradient(to bottom, black , white);
+    /* background-blend-mode: overlay; */
+    background-repeat: no-repeat;
+    background-position: 40% 80%;
+    background-size: cover;
+}
+
+#hero > .container {
+    max-width: 992px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+
+
+#hero > * {
+    color: white;
+}
+
+#hero .content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 10px;
+    z-index: 1;
+}
+
+#hero p {
+    padding: 0 10px;
+}
+
+#hero .button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#hero button {
+    padding: 8px 30px;
+    border: none;
+    color: white;
+    background-color: #21662f;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+
+#hero > .container button:hover {
+    background-color: #ffcc00; /* Slightly lighter gold on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+
+#collection {
+    background-color: white;
+    padding: 50px 0 20px 0;
+}
+
+#collection .container {
+    max-width: 992px;
+    margin: 0 auto;
+}
+
+#collection .card-container {
+    display: flex;
+}
+
+#collection .card {
+    flex-basis: 48%;
+    margin: 0 1%;
+    background-color: rgba(30 30 30 / 3%);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    box-shadow: 1px 1px 2px rgba(9, 134, 55, 0.5);
+}
+
+#collection .card h3 {
+    margin-bottom: 15px;
+}
+
+#collection .card img {
+    width: 100%;
+    margin: auto;
+    height: 240px;
+    background-size: cover;
+    border-radius: 10px;
+    background-color: red;
+    margin-bottom: 10px;
+}
+
+/* Second page */
+
+/* Second Page - Romantic Christmas Theme */
+#romantic-hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to bottom, whitesmoke, #BF0F26); /* Red and white Christmas gradient */
+    padding: 20px;
+}
+
+#romantic-hero .container {
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1); /* Frosted glass effect */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+/* Headings */
+#romantic-hero h1 {
+    font-size: 36px; /* Larger heading for prominence */
+    color: white; /* Gold color for warmth */
+    margin-bottom: 20px;
+}
+
+/* Paragraph Styling */
+#romantic-hero > .container p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #f7f3e3; /* Soft beige color for readability */
+    margin-bottom: 40px;
+}
+
+/* Button Styling */
+#romantic-hero > .container button {
+    padding: 8px 20px;
+    background-color: #21662f; /* Gold background for buttons */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    border: none;
+    color: white; /* Dark green color for button text */
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button Hover Effect */
+#romantic-hero > .container button:hover {
+    background-color: #ffcc00; /* Slightly lighter gold on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+.item1 {
+    position: absolute;
+    width: 300px;
+}
